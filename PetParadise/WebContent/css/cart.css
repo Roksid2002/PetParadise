@@ -1,0 +1,107 @@
+/* Stile per la pagina del carrello */
+
+/* Contenitore principale */
+.main {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Tabella del carrello */
+.tabella {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabella table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabella th,
+.tabella td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+.tabella th {
+  background-color: #f2f2f2;
+}
+
+/* Informazioni prodotto nel carrello */
+.cart-info {
+  display: flex;
+  align-items: center;
+}
+
+.cart-info .image {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.cart-info p {
+  font-weight: bold;
+}
+
+.cart-info small {
+  color: #777;
+}
+
+/* Rimuovi prodotto */
+.cart-info a {
+  color: #f00;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Modifica quantità */
+.cart-info select {
+  padding: 5px;
+}
+
+/* Pulsante Compra */
+.btn-outline-warning {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-outline-warning:hover {
+  background-color: #f57c00;
+}
+
+
+/* Totale */
+.total {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Messaggio carrello vuoto */
+.empty-cart {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Link al catalogo */
+.catalog-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.catalog-link:hover {
+  background-color: #0056b3;
+}

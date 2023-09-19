@@ -1,0 +1,85 @@
+/* profile.css */
+
+/* Stile generale per il form di modifica profilo */
+.edit-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Stile per le sezioni di dati personali, dati di accesso e indirizzo */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.personal-information,
+.login-information,
+.address-information {
+    width: 30%;
+    padding: 10px;
+}
+
+.text-section {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.login-text {
+    font-weight: bold;
+}
+
+/* Stile per gli input */
+.register {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Stile per il pulsante "Salva" */
+.login-button input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-button input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Stile per il link "Logout" */
+.login-button input[type="button"][value="Logout"],
+.login-button input[type="button"][value="Ordini"] {
+    background-color: #dc3545;
+}
+
+.login-button input[type="button"][value="Logout"]:hover,
+.login-button input[type="button"][value="Ordini"]:hover {
+    background-color: #c82333;
+}
+
+/* Stile per i pulsanti di admin */
+.login-button input[type="button"][value="Rendi Amministratore"],
+.login-button input[type="button"][value="Rimuovi da Amministratore"] {
+    background-color: #28a745;
+}
+
+.login-button input[type="button"][value="Rimuovi da Amministratore"] {
+    background-color: #dc3545;
+}
+
+.login-button input[type="button"][value="Rendi Amministratore"]:hover,
+.login-button input[type="button"][value="Rimuovi da Amministratore"]:hover {
+    background-color: #218838;
+}

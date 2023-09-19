@@ -1,0 +1,59 @@
+/* Stile generale per il form di registrazione */
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Stile per i label e gli input */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Stile per il pulsante di registrazione */
+.submit-register {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit-register:hover {
+    background-color: #0056b3;
+}
+
+/* Stile per il link "Crea un account" */
+.register-button {
+    margin-top: 10px;
+}
+
+/* Stile per il link di registrazione */
+span a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+span a:hover {
+    text-decoration: underline;
+}

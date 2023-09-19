@@ -1,0 +1,72 @@
+/* ordini.css */
+
+/* Stile generale per la pagina degli ordini */
+#ordini-page body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#ordini-page .object-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+#ordini-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#ordini-page table, #ordini-page th, #ordini-page td {
+    border: 1px solid #ccc;
+}
+
+#ordini-page th, #ordini-page td {
+    padding: 10px;
+    text-align: left;
+}
+
+#ordini-page th {
+    background-color: #CD5C5C;
+    color: #fff;
+}
+
+#ordini-page tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#ordini-page tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Stile per i link alle fatture */
+#ordini-page a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#ordini-page a:hover {
+    text-decoration: underline;
+}
+
+/* Stile per il pulsante "Torna alla HomePage" */
+#ordini-page div a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#ordini-page div a.button:hover {
+    background-color: #0056b3;
+}

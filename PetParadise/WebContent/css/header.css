@@ -1,0 +1,417 @@
+/* Stili per l'header */
+
+#ricercabar{
+ position: relative;
+ background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 10px;
+    max-width: 100%;
+}
+#mylocation{
+ position: absolute;
+ z-index: 1;
+ margin: 0px;
+ max-width: 100%;
+}
+ #mylocation a{
+  background-color: white;
+  text-decoration: none;
+  display: block;
+  padding: 3px;
+  width: 140%;
+ }
+ #mylocation a:hover{
+ transform: scale(1.01);
+    -webkit-box-shadow: 3px 6px 14px -2px rgba(45,59,85,0.82);
+ -moz-box-shadow: 3px 6px 14px -2px rgba(45,59,85,0.82);
+ box-shadow: 3px 6px 14px -2px rgba(45,59,85,0.82);
+ }
+.header-links-container input[type="button"] {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: #000000; /* Colore del testo per i tuoi bottoni */
+    }
+
+.header-body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+i{
+	margin-right: 15px;
+}
+p{
+	display:inline-flex;
+}
+.header-navbar {
+  background-color:  #3ba99c;
+  padding: 10px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-brand-logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.header-nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.header-search-box {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+.header-brand-logo {
+	margin-left: 20px;
+}
+.header-search-btn {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.fa-circle-user, .fa-shopping-cart
+{
+	margin-right: 30px;
+	color: black;
+}
+
+.header-links-container {
+  display: flex;
+  list-style: none;
+  padding: 7px;
+  background-color: #f1f1f1;
+  justify-content:center;
+  
+}
+button.hButton ,button.hButtonC {
+	background-color:transparent;
+	border:none;
+}
+
+button.hButton:hover, button.hButtonC:hover{
+	cursor:pointer;
+}
+
+.header-link-item {
+margin: 0 10px;
+margin-right:40px;
+margin-left:10px;
+	 justify-content:center;
+	 background-color: transparent;
+        border: none;
+}
+
+.header-link-item a {
+  text-decoration: none;
+  color: black;
+	 justify-content:center;
+}
+
+.header-dropdown {
+			position: relative;
+			display: block;
+	 justify-content:center;
+		}
+
+		.header-dropdown-content {
+			display: none;
+			position: absolute;
+			z-index: 1;
+			
+		}
+
+		.header-dropdown:hover .header-dropdown-content {
+			display: block;
+			
+			
+		}
+
+		/* Stile per gli elementi del bottone a tendina */
+		.header-dropdown-content a {
+			display: block;
+			padding: 30px;
+			text-decoration: none;
+			color: #000000;
+			background-color: #ffffff;
+			text-align:center; 
+		}
+
+		.header-dropdown-content a:hover {
+	transform: scale(1.01);
+    -webkit-box-shadow: 3px 6px 14px -2px rgba(45,59,85,0.82);
+	-moz-box-shadow: 3px 6px 14px -2px rgba(45,59,85,0.82);
+	box-shadow: 3px 6px 14px -2px rgba(45,59,85,0.82);
+	}
+
+.fa-sharp {
+  font-size: 18px;
+}
+
+/* Media query per dispositivi con larghezza massima di 500px */
+@media screen and (max-width: 750px) {
+
+	.header-brand-logo{
+    margin: 0 auto; /* Imposta i margini laterali su "auto" per centrare il logo */
+    display: block;
+	}
+	.header-nav{
+		float: none;
+    display: block;
+    text-align: left;
+	}
+  .header-nav-items {
+    flex-wrap: wrap;
+	  justify-content:center;	  
+  }
+  i{
+	 justify-content:center;
+  }
+ .header-links-container {
+    align-items: center;
+	 margin-bottom: 0px;
+  }
+.fa-circle-user{
+	
+	margin-left:20px;
+	 margin-bottom: 30px;
+	
+}
+	.fa-shopping-cart{
+		 margin-bottom: 23px;
+	}
+  .header-link-item {
+    margin-right:10px;
+    margin-bottom: 20px;
+	  
+	  
+  }
+  
+  .header-link-item a {
+    padding: 10px;
+  }
+  
+  .header-search {
+    margin-left: 20px;
+    margin-bottom: 20px;
+	
+  }
+  
+  .header-search-box {
+    width: 100%;
+	  display: block;
+	  
+  }
+  
+  .header-search-btn {
+    margin-left: 0;
+	  display: block;
+	  
+  }
+}
+
+
+
+
+@media screen and (max-width: 630px) {
+
+	.header-brand-logo{
+    margin: 0 auto; /* Imposta i margini laterali su "auto" per centrare il logo */
+    display: block;
+	}
+	.header-nav{
+		float: none;
+    display: block;
+    text-align: left;
+	}
+  .header-nav-items {
+    flex-wrap: wrap;
+	  justify-content:center;	  
+  }
+  
+ .header-links-container {
+    align-items: center;
+	 margin-bottom: 0px;
+  }
+.fa-circle-user{
+	
+	margin-left:20px;
+	 margin-bottom: 30px;
+}
+	.header-link p{
+		display:none;
+	}
+	.fa-shopping-cart{
+		 margin-bottom: 23px;
+	}
+  .header-link-item {
+	   margin-bottom: 20px;
+	  
+	  
+  }
+  
+  .header-link-item a {
+    padding: 10px;
+  }
+  
+  .header-search {
+    margin-left: 20px;
+    margin-bottom: 20px;
+	
+  }
+  
+  .header-search-box {
+    width: 100%;
+	  display: block;
+	  
+  }
+  
+  .header-search-btn {
+    margin-left: 0;
+	  display: block;
+	  
+  }
+}
+
+@media screen and (max-width: 440px) {
+
+	.header-brand-logo{
+    margin: 0 auto; /* Imposta i margini laterali su "auto" per centrare il logo */
+    display: block;
+	}
+	.header-nav{
+		float: none;
+    display: block;
+    text-align: left;
+	}
+  .header-nav-items {
+    flex-wrap: wrap;
+	   justify-content:center;
+  }
+  
+ .header-links-container {
+    align-items: center;
+	 margin-bottom: 0px;
+  }
+.fa-circle-user{
+	
+	margin-left:0px;
+	 margin-bottom: 30px;
+	
+}
+	.fa-shopping-cart{
+		margin-right: 0px;
+		 margin-bottom: 23px;
+	}
+  .header-link-item {
+    margin-bottom: 10px;
+	   margin-bottom: 20px;
+	  
+  }
+  
+  .header-link-item a {
+    padding: 10px;
+  }
+  
+  .header-search {
+    margin-left: 10px;
+	 margin-right: 40px;
+    margin-bottom: 20px;
+	
+  }
+  
+  .header-search-box {
+    width: 100%;
+	  display: block;
+	  
+  }
+  
+  .header-search-btn {
+    margin-left: 0;
+	  display: block;
+	  
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+	.header-brand-logo{
+    margin: 0 auto; /* Imposta i margini laterali su "auto" per centrare il logo */
+    display: block;
+	}
+	.header-nav{
+		float: none;
+    display: block;
+    text-align: left;
+	}
+  .header-nav-items {
+    flex-wrap: wrap;
+	   justify-content:center;
+  }
+  i{
+	  margin-right: 3px;
+  }
+ .header-links-container {
+    align-items: center;
+	 margin-bottom: 0px;
+  }
+.fa-circle-user{
+	
+	margin-left:0px;
+	 margin-bottom: 30px;
+	
+}
+	.fa-shopping-cart{
+		margin-right: 0px;
+		 margin-bottom: 23px;
+	}
+  .header-link-item {
+    margin-bottom: 10px;
+	   margin-bottom: 20px;
+	  
+  }
+  
+  .header-link-item a {
+    padding: 10px;
+  }
+  
+  .header-search {
+    margin-left: 50px;
+    margin-bottom: 20px;
+	
+  }
+  
+  .header-search-box {
+    width: 100%;
+	  display: block;
+	  
+  }
+  
+  .header-search-btn {
+    margin-left: 0;
+	  display: block;
+	  
+  }
+
+}
+

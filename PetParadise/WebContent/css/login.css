@@ -1,0 +1,57 @@
+/* login.css */
+
+/* Stile generale per il form di login */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.log {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Stile per i label e gli input */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Stile per il pulsante di login */
+.login-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+/* Stile per il link di registrazione */
+span a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
