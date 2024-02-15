@@ -2,7 +2,7 @@
 
 ## General Info
 ***
-This project was developed for the Tecnologie Software per il Web exam at the University of Salerno. Petparadise is a prototype of an online pet store.
+This project was developed for the Software Technologies for the Web exam at the University of Salerno. Petparadise is a prototype of an online pet store.
 
 ## Technologies
 ***
